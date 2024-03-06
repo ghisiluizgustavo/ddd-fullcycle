@@ -1,10 +1,12 @@
+import Customer from "./customer";
+
 export default class Address {
 
   _street: string;
   _city: string;
   _number: number = 0;
   _zip: string;
-  
+
   constructor(street: string, city: string, number: number, zip: string){
     this._street = street;
     this._city = city;
